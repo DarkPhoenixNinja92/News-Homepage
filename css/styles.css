@@ -1,0 +1,20 @@
+.desk-img {
+    display: none;
+}
+
+.mobile-img {
+    width: 95%;
+}
+
+@media (min-width: 1440px) {
+    .desk-img {
+        display: initial;
+    }
+    .mobile-img {
+        display: none;
+    }
+}
+
+nav ul {
+    list-style-type: none;
+}
