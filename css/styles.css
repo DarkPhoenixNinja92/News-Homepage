@@ -6,6 +6,22 @@
     width: 95%;
 }
 
+.mobile-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1.5em;
+    margin-bottom: 3em;
+}
+
+.mobile-menu {
+    cursor: pointer;
+}
+
+nav {
+    display: none;
+}
+
 @media (min-width: 1440px) {
     .desk-img {
         display: initial;
