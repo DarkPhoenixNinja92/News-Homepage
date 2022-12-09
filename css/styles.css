@@ -35,7 +35,49 @@ nav ul {
     list-style-type: none;
 }
 
+.left p {
+    color: hsl(233, 8%, 79%);
+}
+
+.left button {
+    background-color: hsl(5, 85%, 63%);
+    color: hsl(36, 100%, 99%);
+    padding: 0.5em 1.4em;
+    margin-bottom: 2em;
+}
+
 .right {
     background-color: hsl(240, 100%, 5%);
     color: #fff;
+    padding: 0.3em;
+    margin-bottom: 2em;
+}
+
+.right h2 {
+    color: hsl(35, 77%, 62%);
+}
+
+.right p {
+    color: hsl(233, 8%, 79%);
+}
+
+.right hr {
+    width: 92%;
+    color: hsl(236, 13%, 42%);
+}
+
+.new-article {
+    margin-left: 1.3em;
+}
+
+.outer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2em;
+}
+
+.outer img {
+    width: 45%;
+    padding-right: 1.4em;
 }
