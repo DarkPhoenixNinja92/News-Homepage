@@ -19,7 +19,18 @@
 }
 
 nav {
+    position: relative;
+    left: 10vw;
+    top: 22vh;
+    line-height: 2.5em;
+}
+
+.hide {
     display: none;
+}
+
+.show {
+    display: initial;
 }
 
 @media (min-width: 1440px) {
@@ -27,6 +38,9 @@ nav {
         display: initial;
     }
     .mobile-img {
+        display: none;
+    }
+    .mobile-menu {
         display: none;
     }
 }
