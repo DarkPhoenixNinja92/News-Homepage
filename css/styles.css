@@ -43,6 +43,12 @@ nav {
     .mobile-menu {
         display: none;
     }
+    .left,.right {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
 }
 
 nav ul {
